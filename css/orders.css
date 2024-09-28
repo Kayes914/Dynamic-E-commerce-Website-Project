@@ -1,0 +1,91 @@
+/* Custom Styles for the All Orders page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    width: 1900px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.custom-table thead th {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.custom-table tbody tr td {
+    padding: 10px;
+    text-align: left;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.table tbody td select {
+    width: 115%;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.table tbody tr td form {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+main.content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.table-striped tbody tr:hover {
+    background-color: #d4edda;
+}
+
+.table-striped tbody td {
+    border-top: 1px solid #dee2e6;
+}
+
+.table-striped td,
+.table-striped th {
+    padding: 1rem;
+    text-align: left;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.form-select {
+    border-radius: 5rem;
+}

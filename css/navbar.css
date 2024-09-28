@@ -1,0 +1,87 @@
+/* Navbar Styles */
+.navbar {
+    background: linear-gradient(135deg, #007bff, #6c757d) !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+    padding: 1rem 1.5rem !important;
+    border-bottom: 2px solid #007bff !important;
+    
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.navbar-brand i {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.25rem;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #6c757d;
+    background-color: #ffffff33;
+    border-radius: 50px;
+}
+
+.navbar-toggler {
+    border: none;
+    padding: 0.5rem 1rem;
+    background-color: #6c757d;
+}
+
+/* Search form styles */
+#searchForm {
+    display: flex;
+}
+
+.input-group {
+    width: 300px; 
+}
+
+.input-group .form-control {
+    border-radius: 30px 0 0 30px; 
+    border: none;
+    padding: 0.5rem 1.25rem;
+}
+
+.input-group .form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.8);
+}
+
+.input-group .btn {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0 30px 30px 0; 
+}
+
+.input-group .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Shopping cart icon */
+.nav-item .fa-shopping-cart {
+    color: white;
+    font-size: 1.4rem;
+}
+
+/* Button styles */
+.navbar .btn-outline-light {
+    color: #fff !important;
+    border: 2px solid #fff !important;
+    border-radius: 50px;
+    padding: 0.5rem 1.5rem;
+}
+
+.navbar .btn-outline-light:hover {
+    background-color: #fff !important;
+    color: #007bff !important;
+}
